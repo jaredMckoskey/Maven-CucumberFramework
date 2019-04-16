@@ -1,6 +1,7 @@
 @DEMO @WEB
 Feature: demo
 
+  @WEBTEST
   Scenario: Web Demo
     Given I on the tapqa homepage
     When I click the "CAREERS LINK" in the global navbar

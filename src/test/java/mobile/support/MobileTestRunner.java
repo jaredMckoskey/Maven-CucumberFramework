@@ -13,6 +13,7 @@ import org.junit.runner.RunWith;
             "json:target/test-results/mobile/cucumber-report.json"
     },
     features = {"src/test/resources/features/mobile"},
+    tags={"@MOBILETEST"},
     glue = {"mobile.steps", "mobile.support"}
 )
 public class MobileTestRunner {
