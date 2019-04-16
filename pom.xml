@@ -3,10 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.abirkholz</groupId>
-    <artifactId>selenium-appium-cucumber-seed</artifactId>
+    <artifactId>Maven-CucumberFramework</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
-    <name>selenium-appium-cucumber-seed</name>
+    <name>Maven-CucumberFramework</name>
 
     <properties>
         <appium.version>4.1.2</appium.version>
@@ -61,12 +61,6 @@
             <groupId>com.saucelabs</groupId>
             <artifactId>saucerest</artifactId>
             <version>${saucelabs.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
     <build>
